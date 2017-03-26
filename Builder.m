@@ -21,7 +21,9 @@
 
 -(AndroidPhone *)getAPhone
 {
+    NSLog(@"asdasdasd");
     return self.phone;
+    
 }
 
 -(void)print
