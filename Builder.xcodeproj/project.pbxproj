@@ -15,6 +15,11 @@
 		DB0F4F391DF7F16A005D3E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0F4F371DF7F16A005D3E56 /* LaunchScreen.storyboard */; };
 		DB0F4F441DF7F16A005D3E56 /* BuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F431DF7F16A005D3E56 /* BuilderTests.m */; };
 		DB0F4F4F1DF7F16A005D3E56 /* BuilderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F4E1DF7F16A005D3E56 /* BuilderUITests.m */; };
+		DB0F4F5E1DF7F184005D3E56 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F5D1DF7F184005D3E56 /* Builder.m */; };
+		DB0F4F611DF7F219005D3E56 /* AndroidPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F601DF7F219005D3E56 /* AndroidPhone.m */; };
+		DB0F4F641DF7F4ED005D3E56 /* LowBuider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F631DF7F4ED005D3E56 /* LowBuider.m */; };
+		DB0F4F671DF7F5CD005D3E56 /* HighBulder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F661DF7F5CD005D3E56 /* HighBulder.m */; };
+		DB0F4F6A1DF7F656005D3E56 /* Salesman.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0F4F691DF7F656005D3E56 /* Salesman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		DB0F4F4A1DF7F16A005D3E56 /* BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0F4F4E1DF7F16A005D3E56 /* BuilderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderUITests.m; sourceTree = "<group>"; };
 		DB0F4F501DF7F16A005D3E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0F4F5C1DF7F184005D3E56 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = SOURCE_ROOT; };
+		DB0F4F5D1DF7F184005D3E56 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = SOURCE_ROOT; };
+		DB0F4F5F1DF7F219005D3E56 /* AndroidPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidPhone.h; sourceTree = "<group>"; };
+		DB0F4F601DF7F219005D3E56 /* AndroidPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidPhone.m; sourceTree = "<group>"; };
+		DB0F4F621DF7F4ED005D3E56 /* LowBuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowBuider.h; sourceTree = "<group>"; };
+		DB0F4F631DF7F4ED005D3E56 /* LowBuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowBuider.m; sourceTree = "<group>"; };
+		DB0F4F651DF7F5CD005D3E56 /* HighBulder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighBulder.h; sourceTree = "<group>"; };
+		DB0F4F661DF7F5CD005D3E56 /* HighBulder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighBulder.m; sourceTree = "<group>"; };
+		DB0F4F681DF7F656005D3E56 /* Salesman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salesman.h; sourceTree = "<group>"; };
+		DB0F4F691DF7F656005D3E56 /* Salesman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salesman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,16 @@
 		DB0F4F281DF7F16A005D3E56 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				DB0F4F5F1DF7F219005D3E56 /* AndroidPhone.h */,
+				DB0F4F601DF7F219005D3E56 /* AndroidPhone.m */,
+				DB0F4F5C1DF7F184005D3E56 /* Builder.h */,
+				DB0F4F5D1DF7F184005D3E56 /* Builder.m */,
+				DB0F4F621DF7F4ED005D3E56 /* LowBuider.h */,
+				DB0F4F631DF7F4ED005D3E56 /* LowBuider.m */,
+				DB0F4F651DF7F5CD005D3E56 /* HighBulder.h */,
+				DB0F4F661DF7F5CD005D3E56 /* HighBulder.m */,
+				DB0F4F681DF7F656005D3E56 /* Salesman.h */,
+				DB0F4F691DF7F656005D3E56 /* Salesman.m */,
 				DB0F4F2C1DF7F16A005D3E56 /* AppDelegate.h */,
 				DB0F4F2D1DF7F16A005D3E56 /* AppDelegate.m */,
 				DB0F4F2F1DF7F16A005D3E56 /* ViewController.h */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0F4F611DF7F219005D3E56 /* AndroidPhone.m in Sources */,
+				DB0F4F6A1DF7F656005D3E56 /* Salesman.m in Sources */,
+				DB0F4F641DF7F4ED005D3E56 /* LowBuider.m in Sources */,
 				DB0F4F311DF7F16A005D3E56 /* ViewController.m in Sources */,
+				DB0F4F671DF7F5CD005D3E56 /* HighBulder.m in Sources */,
 				DB0F4F2E1DF7F16A005D3E56 /* AppDelegate.m in Sources */,
 				DB0F4F2B1DF7F16A005D3E56 /* main.m in Sources */,
+				DB0F4F5E1DF7F184005D3E56 /* Builder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
