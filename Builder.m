@@ -22,6 +22,7 @@
 -(AndroidPhone *)getAPhone
 {
     NSLog(@"asdasdasd");
+    NSLog(@"asdfasdf");
     return self.phone;
     
 }
