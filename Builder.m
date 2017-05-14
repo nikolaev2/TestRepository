@@ -21,9 +21,15 @@
 
 -(AndroidPhone *)getAPhone
 {
+<<<<<<< HEAD
     NSLog(@"Hello");
     NSLog(@"klop");
+=======
+    NSLog(@"asdasdasd");
+    NSLog(@"asdfasdf");
+>>>>>>> igorNew
     return self.phone;
+    
 }
 
 -(void)print
