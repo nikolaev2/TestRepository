@@ -16,7 +16,6 @@
 -(void)setName;
 -(void)setOSName;
 -(void)setRamsize;
--(void)setJlo;
 
 -(AndroidPhone*)getAPhone;
 -(void)print;
