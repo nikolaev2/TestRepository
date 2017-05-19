@@ -22,6 +22,7 @@
 -(AndroidPhone *)getAPhone
 {
 <<<<<<< HEAD
+    NSLog(@"aaaaaaa");
     NSLog(@"Hello");
     NSLog(@"klop");
 =======
